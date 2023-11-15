@@ -13,44 +13,58 @@
 
 
 
+ <table>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Doe</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bob Smith</td>
+            </tr>
+        </tbody>
+    </table>
 
-<table border="1px">
-	<thead>
-		<tr>
-			<th>Names</th>
-		    <th>Roll Numbers</th>
-		</tr>
-	</thead>
+    <!-- Heading for the ordered list -->
+    <h2>List of medias</h2>
 
-	<tbody>
-		<tr>
-			<td>Gagan</td>
-			<td>23</td>
-		</tr>
-		<tr>
-			<td>Kyush</td>
-			<td>58</td>
-		</tr>
-		<tr>
-			<td>Subham</td>
-			<td>21</td>
-		</tr>
-	</tbody>
-</table>
-<h1>List of medias</h1>
-
-	<ol>
-		<li><img src="https://fastly.picsum.photos/id/123/200/300.jpg?hmac=uMA4z26tAYQnhW8_XlH0SoULB5z9s8tan-WCDkzbdMs" alt="random img"></li>
-		
+    <!-- Ordered List with specific media items -->
+    <ol>
         <li>
-            <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls></video>
+            <!-- First Item: Image -->
+            <figure>
+                <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+                <figcaption>Image: Random Image</figcaption>
+            </figure>
         </li>
-		
         <li>
-            <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls></audio>
+            <!-- Second Item: Video -->
+            <video width="200" height="150" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Video: Big Buck Bunny</p>
         </li>
-	</ol>
-
+        <li>
+            <!-- Third Item: Audio -->
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>Audio: Epoq-Lepidoptera</p>
+        </li>
+    </ol>
 
 
 

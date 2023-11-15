@@ -1,14 +1,30 @@
 
 /* Your CSS Code here. */
 
+ table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
 
-img{
-    width: 150px;
-}
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
 
-video{
-     width: 500px;
-}
-audio{
-    width: 500px;
-}
+        th {
+            background-color: #f2f2f2;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
