@@ -39,20 +39,25 @@
     <!-- Heading for the ordered list -->
     <h1>List of medias</h1>
 
-    <!-- Ordered List with specific media items -->
+
+	
     <ol>
-        <li src="https://picsum.photos/id/123/200/300" >
+        <li>
             <!-- First Item: Image -->
-                <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+            <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
         </li>
-        <li src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+        <li>
             <!-- Second Item: Video -->
-            <video width="400" height="200" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" controls>
+            <video width="400" height="200" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
             </video>
         </li>
-        <li src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+        <li>
             <!-- Third Item: Audio -->
-            <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" controls>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                Your browser does not support the audio tag.
             </audio>
         </li>
     </ol>
